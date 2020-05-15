@@ -14,14 +14,14 @@ const PROJECTS =[
 {
     id:2,
     title: "Guess Odd or Even Game",
-    description: 'Application built in Redux in 2020',
+    description: 'Application built in Redux in 2020 - In Progress',
     link: "https://github.com/vanishtachangea/react-portfolio",
     image: project2
 },
 {
     id:3,
     title: "Interactive tic-tac-toe game",
-    description: 'React Application built in 2020',
+    description: 'React Application built in 2020  - In Progress',
     link: "https://github.com/vanishtachangea/react-portfolio",
     image: project3
 }

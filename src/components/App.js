@@ -3,7 +3,7 @@ import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
 import profilePic from '../assets/profile.png';
 import Title from './Title';
-// import Jokes from '../components/Jokes';
+// import Docs from '../components/Docs';
 // import Header from './Header';
 
 class App extends Component {
@@ -37,7 +37,7 @@ class App extends Component {
                 <hr />
                 <SocialProfiles/>
 {/*                 <hr/>
-                <Jokes/> */}
+                <Docs/> */}
                
             </div>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import App from './components/App';
-import Jokes from './components/Jokes';
+import Docs from './components/Docs';
 import Header from './components/Header';
 import './index.css';
 
@@ -11,7 +11,7 @@ ReactDOM.render(
         <Switch>
           <Route exact path="/" render={()=><Header><App/></Header>}>
           </Route>
-          <Route path="/Nasa" render={()=><Header><Jokes/></Header>}>
+          <Route path="/docs" render={()=><Header><Docs/></Header>}>
           </Route>
         </Switch>
     </Router>,
