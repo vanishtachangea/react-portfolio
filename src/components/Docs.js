@@ -17,7 +17,7 @@ class Docs extends Component {
             {/* <Header/> */}
             <h2>Concepts Learned</h2>
             <div className='docs'>
-                <h3>Used</h3>
+                <h3>React</h3>
                 <ul>
                     <li>components</li>
                     <li>Props</li>
@@ -25,12 +25,28 @@ class Docs extends Component {
                     <li>Router - BrowserRouter</li>
                     <li>Header Component - Props.Children</li>
                     <li>Fetch - API</li>
+					<li>React Developer Tool</li>
+					
                 </ul>
+                <h3>Redux</h3>
+                <ul>
+                    <li>Store</li>
+                    <li>Reducer</li>
+                    <li>Action</li>
+                    <li>Component</li>
+					<li>Provider</li>
+					<li>Redux Middleware - Thunk</li>
+					<li>Split and Combine Reducers</li>
+                </ul>
+				<h3>Others</h3>
+				<ul>
+				<li>Javascript Spread Operator</li>
+				</ul>
                 <hr />
                 <h2>Resources</h2>
                 <p><a href="https://reacttraining.com/react-router/web/example/basic" target="_blank">https://reacttraining.com/react-router/web/example/basic</a> </p>
-                <p><a href="<https://reactjs.org/docs/render-props.html#gatsby-focus-wrapper" target="_blank">https://reactjs.org/docs/render-props.html#gatsby-focus-wrapper</a> </p>
-
+                <p><a href="https://reactjs.org/docs/render-props.html#gatsby-focus-wrapper" target="_blank">https://reactjs.org/docs/render-props.html#gatsby-focus-wrapper</a> </p>
+                <p><a href="https://redux.js.org/introduction/getting-started" target="_blank">https://redux.js.org/introduction/getting-started</a> </p>
                 <img src={url} alt={title} />
             </div>
         </div>)

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
-import profilePic from '../assets/profile.png';
+import profilePic from '../assets/profile2.png';
 import Title from './Title';
 // import Docs from '../components/Docs';
 // import Header from './Header';
@@ -17,7 +17,7 @@ class App extends Component {
             <div>
                {/*  <Header/> */}
                 <img src={profilePic} alt='profile' className='profile'/>
-                <p>My name is Vanishta. I am currently residing in Munich</p>
+                <p>Ich bin Vanishta. Ich wohne in München</p>
                 <Title/>
                 <p>This is my REACT Portfolio</p>
                 {

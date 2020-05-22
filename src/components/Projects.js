@@ -11,6 +11,7 @@ const Project = (props) => {
             <img src={image} alt='profile' style={{ width: 200, height: 120 }} />
             <p>{description}</p>
             <a href={link} target="_blank">{link}</a>
+            
         </div>
     )
 

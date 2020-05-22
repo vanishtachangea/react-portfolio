@@ -11,7 +11,8 @@ const Header = props => {
     return (
         <div>
             <div>
-                <h3 style={style}><Link to='/'>Home</Link></h3>
+                <h3 style={style}><Link to='/'>Home</Link></h3>               
+                <h3 style={style}><Link to='/evenoddgame'>Even Or Odds</Link></h3>
                 <h3 style={style}><Link to='/docs'>Docs</Link></h3>
             </div>
 
