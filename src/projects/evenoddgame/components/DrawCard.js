@@ -7,7 +7,7 @@ const DrawCard = ({deck_id,fetchDrawCard}) => {
     //const {deck_id,fetchDrawCard}=props;
     return (
         <div>
-            <button onClick={fetchDrawCard(deck_id)}>Draw the next card! </button>
+            <button onClick={fetchDrawCard(deck_id)}>Draw the next card!</button>
         </div>
     )
 }

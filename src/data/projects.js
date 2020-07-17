@@ -2,6 +2,7 @@ import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 import project4 from '../assets/project4.png';
+import tetris from '../assets/tetris.png';
 const PROJECTS = [
     {
         id: 1,
@@ -18,7 +19,16 @@ const PROJECTS = [
         description: 'Application built in Redux in 2020',
         link: "/evenoddgame",
         image: project2
-    }
+    },
+	{
+        id: 3,
+        title: "Tetris Game",
+        description: 'Tetris Game -  React and Custom Hooks in 2020',
+        link: "http://react-tetrisgame.s3-website-us-east-1.amazonaws.com/",
+        image: tetris		
+		
+		
+	}
 /*     ,
     {
         id: 3,

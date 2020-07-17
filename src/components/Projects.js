@@ -8,9 +8,9 @@ const Project = (props) => {
         // <div>{this.props.project.title}</div>
         <div style={{ display: 'inline-block', width: 300, margin: 10 }}>
             <h3>{title}</h3>
-            <img src={image} alt='profile' style={{ width: 200, height: 120 }} />
-            <p>{description}</p>
-            <a href={link} target="_blank">{link}</a>
+            <img src={image} alt='profile' style={{ width: 200, height: 100 }} />
+            
+            <a href={link} target="_blank"><p>{description}</p></a>
             
         </div>
     )
